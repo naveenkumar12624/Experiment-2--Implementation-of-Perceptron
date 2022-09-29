@@ -47,7 +47,6 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 class Perceptron:
   def __init__(self, learning_rate=0.1):
-
     self.learning_rate = learning_rate
     self._b = 0.0  # y-intercept
     self._w = None  # weights assigned to input features
