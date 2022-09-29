@@ -43,9 +43,8 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
  ## PROGRAM:
-
-
- import numpy as np
+'''python  
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -119,9 +118,8 @@ plt.plot(range(1, len(classifier.misclassified_samples) + 1),
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
-
-
 '''
+
 # OUTPUT:
 ### Errors during each iteration
 ![image](o3.jpg)
